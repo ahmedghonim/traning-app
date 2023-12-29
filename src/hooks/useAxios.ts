@@ -20,8 +20,7 @@ const useAxios = ({ contentType = "application/json" }: Props) => {
     headers: {
       "Content-Type": contentType as string,
       "Accept": "application/json",
-      "Authorization": `Bearer ${access_token as string}`,
-      "Origin": "https://admin.personaltrainerkmm.com"
+      "Authorization": `Bearer ${access_token as string}`
     },
   });
 };
