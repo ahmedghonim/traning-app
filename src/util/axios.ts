@@ -5,8 +5,7 @@ const customAxios = () =>
     baseURL:"https://personaltrainerkmm.com/api/admin",
     headers: {
       "Content-Type": "application/json",
-      accept: "application/json",
-      "Access-Control-Allow-Origin": "*"
+      "Accept": "application/json"
     },
     withCredentials: true
   });
